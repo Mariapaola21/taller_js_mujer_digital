@@ -27,6 +27,19 @@ Año_de_publicación: 1967
 
 }; console.log (libro)
 
+const numeros = [10, 11, 12, 13, 14, 15];
+const resultado = arreglo (numeros)
+function arreglo (numeros) {
+const par = []
+for (let i = 0; i < numeros.length; i++ ) {
+    if (numeros [i] % 2 === 0) {
+        par.push(numeros[i]);
+    }
+}
+ return par;
+} console.log (resultado)
+
+
  
 
 
